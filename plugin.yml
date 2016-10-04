@@ -1,0 +1,6 @@
+name: Totem
+main: XShockinFireX\MainClass
+author: XShockinFireX
+description: Get an item that will act like a Totem of Undying as on Minecraft Java Edition 1.11!
+version: 1.0
+api: [2.0.0]
