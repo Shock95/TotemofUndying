@@ -15,7 +15,7 @@ totem-id: 347
 ___
 ### Changelog
 
-* **Version [_1.0_](https://github.com/XShockinFireX/TotemofUndying/releases/tag/v1.0)**
+* **Version [_1.0_](https://github.com/XShockinFireX/TotemofUndying/releases/download/1.0/Totem_v1.phar)**
 
 >- First release.
 
