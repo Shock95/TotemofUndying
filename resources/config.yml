@@ -1,0 +1,4 @@
+---
+# ID of an item that will be used like a Totem of Undying, default is 347 (Clock).
+totem-id: 347
+...
