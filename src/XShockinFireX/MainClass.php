@@ -25,7 +25,7 @@ class MainClass extends PluginBase implements Listener {
             	if($event->getDamage() >= $entity->getHealth()) {
                     $entity->getInventory()->removeItem(Item::get($entity->getInventory()->getItemInHand()->getId(), 0, 1));
             	    $event->setCancelled();
-            	    $entity->setHealth(2);
+            	    $entity->getHealth($entity->setHealth() + 2);
             	    $entity->addEffect(Effect::getEffect(10)->setAmplifier(1)->setDuration(800)->setVisible(true));
             	    $entity->addEffect(Effect::getEffect(22)->setAmplifier(1)->setDuration(100)->setVisible(true));
             	    $entity->sendTip(TextFormat::GOLD . "Your Totem of Undying has saved you from dying!\n\n\n\n\n\n\n\n");
